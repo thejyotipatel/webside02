@@ -12,6 +12,12 @@
 .text-primary-300 {
   color: $clr-primary-300;
 }
+.text-primary-400 {
+  color: $clr-primary-400;
+}
+.text-primary-500 {
+  color: $clr-primary-500;
+}
 
 // text accent
 .text-accent-100 {
@@ -52,6 +58,9 @@
 }
 .bg-primary-400 {
   background-color: $clr-primary-400;
+}
+.bg-primary-500 {
+  background-color: $clr-primary-500;
 }
 
 // background accent
@@ -133,7 +142,7 @@
 }
 .radius-200 {
   border-radius: $radius-200;
-} 
+}
 
 // container
 .container {
@@ -148,4 +157,90 @@
 .space-padding-top-bot {
   padding: $size-900 0;
 }
-// sign in button
+
+// utility classes
+
+// headers
+.header-100 {
+  font-size: $fs-600;
+  font-weight: $fw-600;
+}
+.header-200 {
+  font-size: $fs-500;
+  font-weight: $fw-600;
+}
+
+.header-gray {
+  font-size: $fs-300;
+  font-weight: $fw-600;
+  color: $clr-neutral-400;
+}
+.header-blue {
+  font-size: $fs-400;
+  font-weight: $fw-600;
+  color: $clr-primary-200;
+}
+
+.paragraph-100 {
+  font-size: $fs-700;
+  font-weight: $fw-600;
+}
+.paragraph-200 {
+  font-size: $fs-600;
+  font-weight: $fw-600;
+}
+.paragraph-300 {
+  font-size: $fs-300;
+  font-weight: $fw-600;
+}
+
+// buttons
+.star-button {
+  border-radius: 2em;
+  background-color: $clr-neutral-100;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 0.2em;
+  color: $clr-accent-100;
+  font-size: $fs-200;
+  font-weight: $fw-500;
+  padding: 0.3em 1em;
+  & img {
+    width: 0.8em;
+    height: 0.8em;
+  }
+}
+.popular-button {
+  border-radius: 2em;
+  background-color: $clr-primary-100;
+  color: $clr-accent-100;
+  font-size: $fs-200;
+  font-weight: $fw-500;
+  padding: 0.4em 1.5em;
+}
+.enroll-button {
+  border-radius: 0.2em;
+  background-color: $clr-primary-400;
+  color: $clr-accent-100;
+  font-size: $fs-300;
+  font-weight: $fw-600;
+  padding: 0.4em 1.5em;
+}
+.view-syllabus-button {
+  border-radius: 0.2em;
+  border: 0.2px solid $clr-primary-200;
+  background-color: transparent;
+  color: $clr-primary-200;
+  font-size: $fs-300;
+  font-weight: $fw-600;
+  padding: 0.4em 1.5em;
+}
+
+// flex's
+
+.flex-spacing-100 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
